@@ -1,0 +1,48 @@
+footer{
+    background-color: rgb(5, 5, 53);
+    color: gray;
+    padding-top: 4%;
+   
+    
+}
+form{
+    margin-bottom: 1%;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.form-floating{
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+form #floatingTextarea{
+    height: 25vh;
+}
+form .btn{
+    width: 10vw;
+    margin-left: 10%;
+    
+}
+.social-media h2{
+    font-size: 30px;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li h4 {
+    font-size: 23px;
+}
+.hr{
+    border-bottom: 1px solid grey;
+    width: 80%;
+    margin: 2% 10%;
+}
+.copy{
+    text-align: right;
+    padding-right: 10%;
+}

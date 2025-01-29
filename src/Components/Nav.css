@@ -1,0 +1,44 @@
+body{
+    position: relative;
+    top: 0px;
+
+    
+
+}
+
+
+.nav-pills li:hover{
+    background-color: rgb(12, 12, 170);
+   
+    
+
+}
+a{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+
+}
+a .lg{
+    font-weight: 500;
+    font-family: fantasy;
+    font-size: 220%;
+    text-shadow: 2px 0px aqua;
+    
+    
+
+}
+.bi-house{
+    color: blue;
+}
+.bi-grid{
+    font-size: 200%;
+    text-shadow: 2px 0px aqua;
+    margin-left: 2vw;
+}
+.nav{
+    background-color: rgb(5, 5, 53);
+    margin-left: 0%;
+    
+}

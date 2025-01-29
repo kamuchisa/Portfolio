@@ -1,0 +1,57 @@
+.slide{
+    position: absolute;
+    height: 87.4vh;
+    width: 82vw;
+    left: 16.4vw;
+    top: -87.3vh;
+    margin: 0;
+    background-color: rgb(5, 5, 53);
+}
+img{
+    height: 80vh;
+    width: 82vh;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.links h2{
+    margin-left: 10%;
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.carousel-caption{
+    position: absolute;
+    top: 100px;
+    /* background-color: blue;
+    opacity: 50%;
+    border-radius: 5%;
+    border: 2px solid aqua; */
+    
+    
+}
+.carousel-caption h5{
+    color: navy;
+    font-size: 65px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px aqua;
+    
+  
+    
+}
+.carousel-caption p{
+    font-size: 25px;
+}
+.carousel-caption .btn{
+    padding: 6px 20px;
+    font-size: 20px;
+    
+}

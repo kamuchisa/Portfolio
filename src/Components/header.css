@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(5, 5, 53);
+    position: absolute;
+    top: 0;
+    width: 82vw;
+    height: 15vh;
+    left: 16.5%;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+h1{
+    text-align: center;
+    margin-left: 10vw;
+    font-weight: 500;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    min-width: 150px;
+    align-items: center;
+    margin-right: 0%;
+
+    
+}
+.icons a{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+    
+
+}
