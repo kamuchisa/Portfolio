@@ -1,12 +1,17 @@
 .identity {
   position: absolute;
   top: 100vh;
+  padding: 0;
 }
-.identity .col-md-5 {
+.identity .profile {
+  background-color: rgb(5, 5, 53);
+  padding-bottom: 20%;
+}
+.identity .profile .pic {
   background-color: rgb(5, 5, 53);
   height: 70vh;
 }
-.identity .col-md-5 .ppic {
+.identity .profile .pic .ppic {
   height: 330px;
   width: 390px;
   border-radius: 50%;
@@ -14,4 +19,41 @@
   margin-top: 40px;
   border: 4px solid aqua;
   box-shadow: 4px 0px 3px 1px whitesmoke;
+}
+.identity .profile .my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.identity .profile .my-info img {
+  opacity: 40%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px whitesmoke;
+}
+.identity .profile .my-text {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+.identity .profile .my-text h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: wheat;
+}
+.identity .profile .my-text h4 {
+  color: white;
+  text-align: justify;
+  margin-left: 50px;
+}
+.identity .my-cards {
+  position: absolute;
+  top: 90vh;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5.5%;
+}
+.identity .card {
+  margin-right: 8%;
 }/*# sourceMappingURL=Home.css.map */

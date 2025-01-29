@@ -28,7 +28,7 @@ const Caroucel = () => {
                     <img src="../../public/Images/wp6784639.jpg" className="d-block w-100 h-80" alt="" />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>My Journey </h5>
-                        <p>My journey in tech has been fuelled with curiosity to explore how we can empower ourselves with tech skills. This lead to me choosing Computer Science in as one of my subjects in the IB course. Now, I am about to finish my course about web-development with Learnio, which I am believe will help find a good career in tech.</p>
+                        <p>My journey in tech has been fuelled with curiosity to explore how we can empower ourselves with tech skills. This lead to me choosing Computer Science in as one of my subjects in the IB course. Now, I am about to finish my course about web-development with Learnio.</p>
                         <a href="#"><button className="btn btn-primary">More</button></a>
                     </div>
                 </div>
