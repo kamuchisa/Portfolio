@@ -23,6 +23,9 @@
 body {
   padding: 0;
 }
+body .my-skills {
+  margin-bottom: 184vh;
+}
 body .my-skills .skills {
   margin: 0;
   height: 40vh;
@@ -37,6 +40,7 @@ body .my-skills .skills h2 {
 }
 body .my-skills .cards {
   position: absolute;
+  z-index: 10;
   top: 22vh;
   margin-left: 10vw;
 }
@@ -58,4 +62,43 @@ body .my-skills .cards .cad i {
   font-size: 30px;
   font-weight: 800;
   margin-left: 40%;
+}
+body .projects {
+  position: absolute;
+  top: 97vh;
+  z-index: 1;
+}
+body .projects h2 {
+  padding-top: 10vh;
+  font-family: fantasy;
+  font-size: 70px;
+  padding-left: 8vw;
+  background-color: aquamarine;
+  padding-bottom: 10vh;
+}
+body .projects .pads .pad {
+  background-color: rgb(29, 180, 29);
+  color: white;
+  margin-left: 6.5vw;
+  width: 25vw;
+  padding: 0;
+  margin-top: 10vh;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+body .projects .pads .pad img {
+  width: 25vw;
+  height: 40vh;
+}
+body .projects .pads .pad .pad-info {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .projects .pads .pad .pad-info h3 {
+  text-align: center;
+}
+body .projects .pads .pad .pad-info p {
+  text-align: center;
 }/*# sourceMappingURL=PS.css.map */

@@ -20,8 +20,10 @@
     }
 }
 body{
+   
     padding: 0;
     .my-skills{
+        margin-bottom: 184vh;
         .skills{
            margin: 0;
             height: 40vh;
@@ -37,6 +39,7 @@ body{
         }
         .cards{
             position: absolute;
+            z-index: 10;
             top: 22vh;
             margin-left: 10vw;
             .cad{
@@ -60,6 +63,48 @@ body{
                 }
                
 
+            }
+        }
+    }
+    .projects{
+        position: absolute;
+        top: 97vh;
+        z-index: 1;
+        h2{
+            padding-top: 10vh;
+            font-family: fantasy;
+            font-size: 70px;
+            padding-left: 8vw;
+            background-color: aquamarine;
+            padding-bottom: 10vh;
+        }
+        .pads{
+
+            .pad{
+                background-color: rgb(29, 180, 29);
+                color: white;
+                margin-left: 6.5vw;
+                width: 25vw;
+                padding: 0;
+                margin-top: 10vh;
+                box-shadow: 0px 0px 5px 1px grey;
+                img{
+                    width: 25vw;
+                    height: 40vh;
+                }
+                .pad-info{
+                    margin: 5%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                }
             }
         }
     }

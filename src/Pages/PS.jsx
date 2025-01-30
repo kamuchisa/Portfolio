@@ -58,6 +58,38 @@ const PS = () => {
             
           </div>
         </section>
+        <section className="projects">
+          <h2>Featured Projects</h2>
+          <div className="row pads">
+            <div className="col-md-4 pad">
+              <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
+              <div className="pad-info">
+                <h3>Online-Safety awareness </h3>
+                <p>Spreading awareness about anline threats</p>
+                <button className="btn btn-primary">View</button>
+              </div>
+
+            </div>
+            <div className="col-md-4 pad">
+              <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
+              <div className="pad-info">
+                <h3>Online-Safety awareness </h3>
+                <p>Spreading awareness about anline threats</p>
+                <button className="btn btn-primary">View</button>
+              </div>
+
+            </div>
+            <div className="col-md-4 pad">
+              <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
+              <div className="pad-info">
+                <h3>Online-Safety awareness </h3>
+                <p>Spreading awareness about anline threats</p>
+                <button className="btn btn-primary">View</button>
+              </div>
+
+            </div>
+          </div>
+        </section>
       </body>
     </div>
   )
