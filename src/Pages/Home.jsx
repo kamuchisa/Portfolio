@@ -27,8 +27,8 @@ const Home = () => {
             
             <div className="card col-md-3">
               <div className="card-header">
-                <i></i>
-                <h3>My Experience in</h3>
+                <i className="bi bi-cart"></i>
+                <h3>Experiences in</h3>
                 <h4>2023</h4>
               </div>
               <div className="card-text">
@@ -53,47 +53,42 @@ const Home = () => {
             </div>
             <div className="card col-md-3">
               <div className="card-header">
-                <i></i>
-                <h3>My Experience in</h3>
-                <h4>2023</h4>
+                <i className="bi bi-cart-check"></i>
+                <h3>Experiences in</h3>
+                <h4>2024</h4>
               </div>
               <div className="card-text">
-                <p>In 2023, I began my journey into mastering web development by creating websites for campaigns and awareness initiatives
-                   using website builders. This experience helped me understand the fundamentals of UI/UX design, responsiveness, and user engagement.
-                    It sparked my passion for front-end development, leading me to dive deeper into coding and building interactive, modern web experiences</p>
+                <p>In 2024, I began creating basic HTML and CSS web pages, strengthening my understanding of web structure and styling. 
+                  I learned about semantic HTML, responsive design, and CSS layouts, which improved my ability to build clean, accessible 
+                  interfaces. This foundational knowledge set the stage for my transition into more advanced front-end development with JavaScript and React.</p>
 
                     <h3>Tools mastered</h3>
                     <ul>
-                      <li>Wix</li>
-                      <li>Google Sites</li>
-                      <li>Word-Press</li>
+                      <li>VS Code</li>
+                      <li>Html</li>
+                      <li>CSS</li>
                     </ul>
                 
 
               </div>
-              
-              
-              
-
-
-
             </div>
             <div className="card col-md-3">
               <div className="card-header">
-                <i></i>
-                <h3>My Experience in</h3>
-                <h4>2023</h4>
+                <i className="bi bi-cart-check-fill" ></i>
+                <h3>Experiences in</h3>
+                <h4>2025</h4>
               </div>
               <div className="card-text">
-                <p>In 2023, I began my journey into mastering web development by creating websites for campaigns and awareness initiatives
-                   using website builders. This experience helped me understand the fundamentals of UI/UX design, responsiveness, and user engagement.
-                    It sparked my passion for front-end development, leading me to dive deeper into coding and building interactive, modern web experiences</p>
+                <p>In 2025, I advanced my front-end development skills by learning JavaScript, Bootstrap, and React. 
+                  JavaScript strengthened my ability to build dynamic and interactive web applications, while Bootstrap 
+                  improved my efficiency in creating responsive designs. Mastering React introduced me to component-based development, enabling me to build scalable, maintainable, 
+                  and modern user interfaces with improved functionality.</p>
 
                     <h3>Tools mastered</h3>
                     <ul>
-                      <li>Wix</li>
-                      <li>Google Sites</li>
-                      <li>Word-Press</li>
+                      <li>Java Script</li>
+                      <li>Bootstrap</li>
+                      <li> React</li>
                     </ul>
                 
 
