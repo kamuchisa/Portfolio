@@ -47,3 +47,14 @@ ul li h4 {
     text-align: right;
     padding-right: 10%;
 }
+
+@media (max-width:575px){
+    footer{
+        padding-top: 20%;
+    }
+    form .btn{
+        margin-left: 10px;
+        width: 100px;
+        margin-bottom: 30px;
+    }
+}

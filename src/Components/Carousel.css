@@ -55,3 +55,20 @@ img{
     font-size: 20px;
     
 }
+
+@media (max-width:575px){
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+
+    }
+    .slide{
+        height: 20vh;
+    }
+    img{
+        height: 50vh;
+    }
+
+}

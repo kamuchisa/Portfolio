@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="container-fluid">
         <div className="row">
-            <div className=" form col-md-5">
+            <div className=" form col-md-5 col-sm-12">
                 <form action="">
                     <h2>Lets get your feedback</h2>
                 <div className="row">
@@ -35,7 +35,7 @@ const Footer = () => {
                 </form>
 
             </div>
-            <div className=" links col-md-3">
+            <div className=" links col-md-3 col-sm-6">
                 <h2>Links</h2>
                 <ul>
                     <li> <h3><Link to="/" >Home</Link></h3></li>
@@ -44,11 +44,11 @@ const Footer = () => {
                 </ul>
 
             </div>
-            <div className="social-media col-md-2">
+            <div className="social-media col-md-2 col-sm-6">
                 <h2>Follow me on </h2>
                 <ul>
-                    <li> <a href="#"><h4><i className="bi bi-facebook"></i> Facebook</h4></a></li>
-                    <li> <a href="#"><h4><i className="bi bi-github"></i> Git hub</h4></a></li>
+                    <li> <a href="https://www.facebook.com/brian.kamuchisa.7/"><h4><i className="bi bi-facebook"></i> Facebook</h4></a></li>
+                    <li> <a href="https://github.com/kamuchisa"><h4><i className="bi bi-github"></i> Git hub</h4></a></li>
                     <li> <a href="#"> <h4><i className="bi bi-discord"></i> Discord</h4></a></li>
                     <li> <a href="#"> <h4><i className="bi bi-twitter"></i> Twitter</h4></a></li>
                     <li> <a href="#"> <h4><i className="bi bi-linkedin"></i> LinkedIn</h4></a></li>

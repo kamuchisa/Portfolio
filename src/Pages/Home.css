@@ -35,7 +35,7 @@
 .identity .profile .my-text {
   position: absolute;
   left: 40%;
-  top: 10%;
+  top: 5%;
 }
 .identity .profile .my-text h2 {
   text-align: center;
@@ -85,4 +85,39 @@
 }
 .identity .card .card-text ul {
   margin-left: 5vw;
+}
+
+@media (max-width: 575px) {
+  .identity {
+    top: 60vh;
+  }
+  .ppic {
+    display: none;
+  }
+  .my-info img {
+    display: none;
+  }
+  .identity .profile .my-text {
+    left: 0;
+    margin-right: 10px;
+  }
+  .identity .profile .my-text h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: wheat;
+  }
+  .identity .profile .my-text h4 {
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+  }
+  .my-cards {
+    top: 180vh;
+  }
+  .card {
+    height: auto;
+  }
+  .card .card-text p {
+    display: none;
+  }
 }/*# sourceMappingURL=Home.css.map */

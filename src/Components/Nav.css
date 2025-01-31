@@ -42,3 +42,9 @@ a .lg{
     margin-left: 0%;
     
 }
+
+@media (max-width:575px){
+    .nav{
+        height: 60vh;
+    }
+}

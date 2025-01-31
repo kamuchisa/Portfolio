@@ -4,7 +4,7 @@ const PS = () => {
     <div>
       <section className="hero">
         <h2>Project and Skills</h2>
-        <button className="btn btn-primary">Click Here</button>
+        <a href="#projects"><button className="btn btn-primary">Click Here</button></a>
       </section>
       <body className="">
         <section className="my-skills ">
@@ -58,7 +58,7 @@ const PS = () => {
             
           </div>
         </section>
-        <section className="projects">
+        <section id="projects" className="projects">
           <h2>Featured Projects</h2>
           <div className="row pads">
             <div className="col-md-4 pad">
@@ -66,25 +66,25 @@ const PS = () => {
               <div className="pad-info">
                 <h3>Online-Safety awareness </h3>
                 <p>Spreading awareness about anline threats</p>
-                <button className="btn btn-primary">View</button>
+                <a target="_blank" href="https://kamuchisab.wixsite.com/online-safety"><button className="btn btn-primary">View</button></a>
               </div>
 
             </div>
             <div className="col-md-4 pad">
               <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
               <div className="pad-info">
-                <h3>Online-Safety awareness </h3>
-                <p>Spreading awareness about anline threats</p>
-                <button className="btn btn-primary">View</button>
+                <h3>Company Website </h3>
+                <p>Marketing the products and services of the company</p>
+                <a target="_blank" href="https://github.com/kamuchisa/project-2.git"><button className="btn btn-primary">View</button></a>
               </div>
 
             </div>
             <div className="col-md-4 pad">
               <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
               <div className="pad-info">
-                <h3>Online-Safety awareness </h3>
-                <p>Spreading awareness about anline threats</p>
-                <button className="btn btn-primary">View</button>
+                <h3>Blog on Networks</h3>
+                <p>Blog on cloud computing. </p>
+                <a target="_blank" href="https://kamuchisab.wixsite.com/my-site"><button className="btn btn-primary">View</button></a>
               </div>
 
             </div>

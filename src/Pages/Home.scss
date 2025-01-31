@@ -45,7 +45,7 @@
         .my-text{
             position: absolute;
             left: 40%;
-            top: 10%;
+            top: 5%;
             h2{
                 text-align: center;
                 margin-bottom: 50px;
@@ -103,4 +103,43 @@
         }
         
     }
+}
+@media (max-width:575px){
+    .identity{
+        top: 60vh;
+    }
+    .ppic{
+       display: none;
+    }
+    .my-info img{
+        display: none;
+    }
+    .identity .profile .my-text{
+        left: 0;
+        margin-right: 10px;
+    
+        h2{
+            text-align: center;
+            margin-bottom: 50px;
+            color: wheat;
+
+        }
+        h4{
+            color: white;
+            text-align: justify;
+            margin-left: 50px;
+        }
+    }
+    .my-cards{
+        top:180vh;
+    }
+    .card{
+        height: auto;
+        .card-text{
+            p{
+                display: none;
+            }
+        }
+    }
+
 }

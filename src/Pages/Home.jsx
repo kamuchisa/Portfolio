@@ -8,13 +8,13 @@ const Home = () => {
         <Carousel/>
         <section className="identity container-fluid">
           <div className="row profile">
-            <div className="col-md-5 pic ">
+            <div className="col-md-5  pic ">
                <img src="../../public/Images/bee.JPG" alt="profile pic" className="ppic" />
             </div>
-            <div className=" my-info col-md-6">
+            <div className=" my-info col-sm-12">
               <img src="../../public/Images/nature.jpg" className="img" alt="" />
             </div>
-            <div className="my-text col-md-6">
+            <div className="my-text col-md-6 col-sm-12">
             <h2>My identity</h2>
               <h4>My name is Brian Kamuchisa, an aspiring front-end web developer. I have studied in Computer Science for
                  two years and i am almost completing my three month web-development course with Learnio. Through my experiences, 
@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <div className="my-cards row">
             
-            <div className="card col-md-3">
+            <div className="card col-md-3 col-sm-12">
               <div className="card-header">
                 <i className="bi bi-cart"></i>
                 <h3>Experiences in</h3>
@@ -51,7 +51,7 @@ const Home = () => {
 
 
             </div>
-            <div className="card col-md-3">
+            <div className="card col-md-3 col-sm-12">
               <div className="card-header">
                 <i className="bi bi-cart-check"></i>
                 <h3>Experiences in</h3>
@@ -72,7 +72,7 @@ const Home = () => {
 
               </div>
             </div>
-            <div className="card col-md-3">
+            <div className="card col-md-3 col-sm-12">
               <div className="card-header">
                 <i className="bi bi-cart-check-fill" ></i>
                 <h3>Experiences in</h3>
