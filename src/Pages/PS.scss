@@ -1,3 +1,17 @@
+@keyframes animate {
+    0%,10%,100%
+    {
+        width: 0;
+
+    }
+    70%,90%
+    {
+        width: 0;
+
+    }
+  
+}
+
 .hero{
     position: absolute;
     height: 85vh;
@@ -5,7 +19,7 @@
     left: 16.4vw;
     top: 15vh;
     margin: 0;
-    background-image: url("../../public/Images/images.jpeg");
+    background-image: url("../../public/Images/pic4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -17,8 +31,21 @@
         font-weight: 600;
         -webkit-text-stroke: 3px aqua;
         margin-bottom: 5vh;
+        text-transform: uppercase;
     }
+    h2::before{
+        content: attr(data-text);
+        -webkit-text-stroke: 3px rgb(50, 223, 53);
+        color: rgb(5,5,53);
+        border-right: 2px solid rgb(50, 223, 53) ;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+
+    }
+
 }
+
+
 body{
    
     padding: 0;

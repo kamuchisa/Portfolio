@@ -7,7 +7,7 @@ const Caroucel = () => {
         <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="../../public/Images/110442-line-light_blue-atmosphere-azure-light-x750.jpg" className="d-block w-100 h-80" alt="" />
+                    <img src="../../public/Images/pic3.jpg" className="d-block w-100 h-80" alt="" />
                     <div className="carousel-caption  d-md-block">
                         <h5>Who am I ?</h5>
                         <p>An aspiring front-end web-developer, inspired by making a great positive impact with a vision of making meaningful contributions in the world of tech. </p>

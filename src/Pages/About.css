@@ -1,5 +1,24 @@
-.hero {
-  background-image: url("../../public/Images/");
+.hro {
+  position: absolute;
+  height: 85vh;
+  width: 82vw;
+  left: 16.4vw;
+  top: 15vh;
+  margin: 0;
+  background-image: url("../../public/Images/pic2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hro h2 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-text-stroke: 3px aqua;
+  margin-bottom: 5vh;
 }
 
 body .bio {
@@ -94,5 +113,11 @@ body .contact-infor .infor .cd h4 {
     width: 80%;
     height: 15vh;
     padding: 0;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .hero h2 {
+    font-size: 45px;
   }
 }/*# sourceMappingURL=About.css.map */

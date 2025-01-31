@@ -3,8 +3,8 @@ const PS = () => {
   return (
     <div>
       <section className="hero">
-        <h2>Project and Skills</h2>
-        <a href="#projects"><button className="btn btn-primary">Click Here</button></a>
+        <h2 data-text="My =>">Project and Skills</h2>
+        
       </section>
       <body >
         <section className="my-skills ">
