@@ -18,9 +18,10 @@ h1{
     font-weight: 500;
     font-family: fantasy;
     -webkit-text-stroke: 1px solid aqua;
-    text-shadow: 1px 4px black;
+    text-shadow: 4px 2px aqua;
     
 }
+
 
 .icons{
     display: flex;
@@ -45,5 +46,11 @@ h1{
     }
     .icons{
         width: 100px;
+    }
+    header{
+        width: 86vw;
+        margin-left: 0;
+        left:13.8
+
     }
 }

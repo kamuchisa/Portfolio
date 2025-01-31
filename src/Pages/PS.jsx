@@ -39,14 +39,14 @@ const PS = () => {
               <i className="bi bi-filetype-jsx"></i>
               
               <h2>JSX</h2>
-              <p>Jsx which allows us to write HTML like code in Java Script and I have used it to build react websites using react </p>
+              <p>Jsx, allows us to write HTML like code in Java Script and I have used it to build react websites using react </p>
             </div>
             <div className="col-md-4 cad">
               
               <i className="bi bi-filetype-jsx"></i>
               
               <h2>Java Script</h2>
-              <p>This is a programming language I have in my projects to create dynamic website and for DOM manipulation.</p>
+              <p>This is a programming language I have in my projects to create dynamic website.</p>
             </div>
             <div className="col-md-4 cad">
               
