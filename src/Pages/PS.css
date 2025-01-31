@@ -101,4 +101,21 @@ body .projects .pads .pad .pad-info h3 {
 }
 body .projects .pads .pad .pad-info p {
   text-align: center;
+}
+
+@media (max-width: 575px) {
+  .hero {
+    height: 50vh;
+  }
+  .hero h2 {
+    font-size: 45px;
+  }
+  .my-skills {
+    position: absolute;
+    width: 100%;
+    top: -40vh;
+  }
+  .cards .cad {
+    width: 80%;
+  }
 }/*# sourceMappingURL=PS.css.map */

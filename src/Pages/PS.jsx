@@ -6,7 +6,7 @@ const PS = () => {
         <h2>Project and Skills</h2>
         <a href="#projects"><button className="btn btn-primary">Click Here</button></a>
       </section>
-      <body className="">
+      <body >
         <section className="my-skills ">
           
           <div className="skills row">
@@ -60,8 +60,8 @@ const PS = () => {
         </section>
         <section id="projects" className="projects">
           <h2>Featured Projects</h2>
-          <div className="row pads">
-            <div className="col-md-4 pad">
+          <div className="row  row-sm-1 pads">
+            <div className="col-md-4 col-sm-12 pad">
               <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
               <div className="pad-info">
                 <h3>Online-Safety awareness </h3>
@@ -70,7 +70,7 @@ const PS = () => {
               </div>
 
             </div>
-            <div className="col-md-4 pad">
+            <div className="col-md-4 col-sm-12 pad">
               <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
               <div className="pad-info">
                 <h3>Company Website </h3>
@@ -79,7 +79,7 @@ const PS = () => {
               </div>
 
             </div>
-            <div className="col-md-4 pad">
+            <div className="col-md-4 col-sm-12 pad">
               <img src="../../public/Images/istockphoto-817486028-612x612.jpg" alt="" />
               <div className="pad-info">
                 <h3>Blog on Networks</h3>

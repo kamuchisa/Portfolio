@@ -1,3 +1,28 @@
+/* Define the keyframes for the slide up and down animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%); /* Start from below the view */
+    opacity: 0; /* Start as invisible */
+  }
+  100% {
+    transform: translateY(0); /* Move to its original position */
+    opacity: 1; /* Become fully visible */
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(200px); /* Start from its original position */
+    opacity: 0; /* Start as visible */
+  }
+  50% {
+    transform: translateY(100%); /* Move down and out of view */
+    opacity: 50%; /* Become invisible */
+  }
+  100% {
+    transform: translateY(0); /* Start from its original position */
+    opacity: 1;
+  }
+}
 .identity {
   position: absolute;
   top: 100vh;
@@ -13,7 +38,7 @@
 }
 .identity .profile .pic .ppic {
   height: 330px;
-  width: 390px;
+  width: 350px;
   border-radius: 50%;
   margin-left: 40px;
   margin-top: 40px;
@@ -53,6 +78,7 @@
   display: flex;
   flex-direction: row;
   padding-left: 5.5%;
+  animation: slideDown 0.5s ease-out forwards;
 }
 .identity .card {
   margin-right: 8%;

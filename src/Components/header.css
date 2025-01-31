@@ -16,6 +16,9 @@ h1{
     text-align: center;
     margin-left: 10vw;
     font-weight: 500;
+    font-family: fantasy;
+    -webkit-text-stroke: 1px solid aqua;
+    text-shadow: 1px 4px black;
     
 }
 

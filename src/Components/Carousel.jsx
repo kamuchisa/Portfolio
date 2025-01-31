@@ -11,7 +11,7 @@ const Caroucel = () => {
                     <div className="carousel-caption  d-md-block">
                         <h5>Who am I ?</h5>
                         <p>An aspiring front-end web-developer, inspired by making a great positive impact with a vision of making meaningful contributions in the world of tech. </p>
-                        <a href="#"><button className="btn btn-primary">More</button></a>
+                       
                     </div>
                 </div>
                 <div className="carousel-item active">
@@ -22,7 +22,7 @@ const Caroucel = () => {
                         <p>Having been gone through IB system which is a rigorous and tough caurriculum aimed 
                             a producing world class citizens with critical thinking and problem-solving skills. 
                             I posses the necessary skills to bring solutions.</p>
-                        <a href="#"><button className="btn btn-primary">More</button></a>
+                        
                     </div>
 
                 </div>
@@ -33,7 +33,7 @@ const Caroucel = () => {
                         <p>My journey in tech has been fuelled with curiosity to explore
                              how we can empower ourselves with tech skills. This lead to me choosing 
                              Computer Science in as one of my subjects in the IB course and take the web-development course.</p>
-                        <a href="#"><button className="btn btn-primary">More</button></a>
+                        
                     </div>
                 </div>
             </div>

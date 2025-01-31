@@ -109,3 +109,21 @@ body{
         }
     }
 }
+@media (max-width:575px){
+    .hero{
+        height: 50vh;
+        h2{
+            font-size: 45px;
+        }
+    }
+    .my-skills{
+        position: absolute;
+        width: 100%;
+        top: -40vh;
+    }
+    .cards{
+        .cad{
+            width: 80%;
+        }
+    }
+}
