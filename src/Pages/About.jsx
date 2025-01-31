@@ -7,10 +7,10 @@ const About = () => {
       </section>
       <body>
         <div className="row bio">
-          <div className="col-md-5 zim">
+          <div className="col-md-5 col-sm-12 zim">
 
           </div>
-          <div className="col-md-7 dt">
+          <div className="col-md-7 col-sm-12 dt">
             <h2>Biography</h2>
             <ul>
               <li>Name: Brian Kamuchisa</li>
@@ -27,17 +27,17 @@ const About = () => {
           
         </section>
         <div className="row infor">
-          <div className="col-md-6 cd ">
+          <div className="col-md-6 col-sm-12 cd ">
           <i className="bi bi-whatsapp"></i>
             <h3>Whatsapp</h3>
             <h4>+263 0786601219</h4>
           </div>
-          <div className="col-md-6 cd ">
+          <div className="col-md-6 col-sm-12 cd ">
           <i className="bi bi-envelope"></i>
             <h3>Email</h3>
             <h4>kamuchisabryan <br /> @gmail.com</h4>
           </div>
-          <div className="col-md-6 cd ">
+          <div className="col-md-6 col-sm-12 cd ">
           <i className="bi bi-github"></i>
             <h3>Github</h3>
             <h4>@kamuchisa</h4>

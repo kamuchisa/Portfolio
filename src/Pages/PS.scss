@@ -120,10 +120,56 @@ body{
         position: absolute;
         width: 100%;
         top: -40vh;
+        
     }
     .cards{
-        .cad{
-            width: 80%;
+        margin-left: 10vw;
+        
+    }
+    body .my-skills .cards .cad{
+        margin: 0;
+        width: 40%;
+        height: 26vh;
+        margin-bottom: 1vh;
+        margin-right: 2vw;
+    }
+    body .my-skills .cards{
+        top:16vh ;
+    }
+    body .projects{
+        top: 48vh;
+        h2{
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 0;
+            padding-bottom: 20px;
+        }
+        .pads{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .pad{
+                margin-top: 0px;
+                width: 60vw;
+                height: 17vh;
+                margin-bottom: 10px;
+                
+                
+                
+                img{
+                   display: none;
+                   
+                }
+              .pad-info{
+                margin: 0%;
+                h3{
+                    font-size: 20px;
+                }
+              }
+            }
         }
     }
 }

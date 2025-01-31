@@ -47,4 +47,8 @@ a .lg{
     .nav{
         height: 60vh;
     }
+    .container-fluid{
+        background-color: rgb(5, 5, 53);
+        width: 10vw;
+    }
 }
