@@ -3,7 +3,7 @@ const PS = () => {
   return (
     <div>
       <section className="hero">
-        <h2 data-text="My =>">Project and Skills</h2>
+        <h2 data-text="My=>">Projects and Skills</h2>
         
       </section>
       <body >

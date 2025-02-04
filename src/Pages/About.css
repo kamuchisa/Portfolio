@@ -40,12 +40,24 @@ body .bio .dt h2 {
   background-color: aquamarine;
   font-family: fantasy;
 }
-body .bio .dt ul {
-  margin-left: 30%;
+body .bio .dt table {
+  margin-left: 20%;
   margin-top: 5vh;
   font-family: sans-serif;
   line-height: 8vh;
   font-size: 20px;
+  background-color: aquamarine;
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 40vw;
+}
+body .bio .dt table tr {
+  border-bottom: 1px solid blue;
+}
+body .bio .dt table tr td {
+  border-right: 1px solid red;
+  font-size: 20px;
+  font-family: cursive;
 }
 body .contact-infor {
   position: absolute;

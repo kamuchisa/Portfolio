@@ -27,7 +27,7 @@
     align-items: center;
     flex-direction: column;
     h2{
-        font-size: 80px;
+        font-size: 75px;
         font-weight: 600;
         -webkit-text-stroke: 3px aqua;
         margin-bottom: 5vh;
@@ -37,7 +37,7 @@
         content: attr(data-text);
         -webkit-text-stroke: 3px rgb(50, 223, 53);
         color: rgb(5,5,53);
-        border-right: 2px solid rgb(50, 223, 53) ;
+      
         overflow: hidden;
         animation: animate 6s linear infinite;
 

@@ -12,13 +12,27 @@ const About = () => {
           </div>
           <div className="col-md-7 col-sm-12 dt">
             <h2>Biography</h2>
-            <ul>
-              <li>Name: Brian Kamuchisa</li>
-              <li>Age: Twenty-one</li>
-              <li>Nationality: Zimbabwean</li>
-              <li>Languages: Shone, English, Spanish</li>
 
-            </ul>
+            <table className="table-primary">
+              <tr>
+                <th>Name</th>
+                <th>Brian Kamuchisa</th>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <th>Twenty-One </th>
+              </tr>
+              <tr>
+                <th>Nationality</th>
+                <th>Zimbabwean</th>
+              </tr>
+              <tr>
+                <th>Languages</th>
+                <th>Shona, English, Spanish</th>
+              </tr>
+
+            </table>
+           
           </div>
         </div>
        <section className="contact-infor">
